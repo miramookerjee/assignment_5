@@ -3,20 +3,19 @@
 	font-family: 'Poppins', sans-serif;
 	font-weight: 800;
 	font-size: 2em;
-	margin: 0 0 2.5em 0;
-	display: inline-block;
-	text-decoration: none;
-	position: relative;
-	vertical-align: baseline;
-	top: 50%;
-	transform: translateY(-50%);
-	text-align: center;
-	padding-top: 10%;
+	
 }
 
 .title a {
 	color: #7C3F2C;;
 	text-decoration: none;
+}
+
+#logo-and-title {
+	display: flex;
+	align-items: center;
+	padding: 3em 1em;
+
 }
 
 #title-image {
