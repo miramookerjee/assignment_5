@@ -14,7 +14,7 @@
 }
 
 .title a {
-	color: #7C3F2C;;
+	color: #7C3F2C;
 	text-decoration: none;
 }
 
@@ -26,6 +26,18 @@
   	width: 95%;
   	padding-bottom: 2em;
  
+}
+
+#locations_dropdown {
+	float: right;
+	padding-right: 6em;
+	font-family: 'Poppins', sans-serif;
+}
+
+#locations_options {
+	font-family: 'Poppins', sans-serif;
+	border: 1.25px solid black;
+	border-radius: 5px;
 }
 
 #topbar {
@@ -47,6 +59,10 @@
 	padding-bottom: 2em
 }
 
+#previous-orders {
+	vertical-align: top /* so all figures are vertically aligned at the top*/
+}
+
 button {
 	display: block;
 	align-items: center;
@@ -65,6 +81,16 @@ button {
   	text-decoration: none;
 	font-size: 16px;
 	padding: 0.5em;
+}
+
+figure {
+    display: table;
+    max-width: 30%; 
+    
+}
+
+figure figcaption {
+    text-align: center;
 }
 
 h2 {
@@ -96,4 +122,10 @@ hr {
 	border-top: dotted 2px;
 	width: 95%;
 
+}
+
+figcaption {
+	font-family: 'Poppins', sans-serif;
+	display: table-caption;
+	caption-side:bottom;
 }
