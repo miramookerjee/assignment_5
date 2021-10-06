@@ -114,6 +114,15 @@
 	margin-left: 2em;
 }
 
+#product_detail_image {
+	display: block;
+	align-items: left;
+	margin-left: 4.5em;
+  	width: 40%;
+  	padding-bottom: 2em;
+ 
+}
+
 #product_details_and_image {
 	display: flex;
 }
