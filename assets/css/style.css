@@ -17,6 +17,12 @@
 	color: #7C3F2C;
 	text-decoration: none;
 }
+
+
+.product_details_and_image {
+	display: flex;
+}
+
 #back {
 	display: flex;
 	align-items: center;
@@ -123,9 +129,12 @@
  
 }
 
-#product_details_and_image {
-	display: flex;
+#product_details p {
+	margin-left: 4em;
+	font-size: 22px;
 }
+
+
 
 
 #quantity_dropdown {
