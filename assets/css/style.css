@@ -25,6 +25,7 @@
 
 .product_detail_info {
 	display: flex;
+	align-items: center;
 }
 
 #back {
@@ -68,7 +69,9 @@
  
 }
 
-
+#first_quantity {
+	margin-left: 2em;
+}
 
 #glazing_dropdown {
 	padding-right: 6em;
@@ -137,13 +140,14 @@
  
 }
 
+#product_details img {
+	margin-left: 1em;
+}
+
 #product_details p {
 	margin-left: 4em;
 	font-size: 22px;
 }
-
-
-
 
 #quantity_dropdown {
 	padding-right: 6em;
