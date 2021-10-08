@@ -1,6 +1,6 @@
 .icon {
-	width: 40px;
     height: auto;
+    width: 40px;
 }
 
 .indented_one_tab {
@@ -13,8 +13,8 @@
 	font-family: 'Poppins', sans-serif;
 	font-weight: 800;
 	font-size: 2.25em;
-	text-decoration: none;
 	padding-right: 5em;
+	text-decoration: none;
 	
 }
 
@@ -29,26 +29,23 @@
 }
 
 .product_detail_info {
-	display: flex;
 	align-items: center;
+	display: flex;	
 }
 
 #add_to_cart_btn {
-
-  	width: 40%; 
-  	color: black;
-  	margin-left: 5.7em;
-
-  	background-color: #FFFFFF; 
+	color: black;
+	background-color: #FFFFFF; 
   	border: 2px solid black;
   	border-radius: 5px;
   	font-family: 'Poppins', sans-serif;
+  	font-size: 16px;
 	font-weight: 400;
-  	font-size: 40px;
-  	text-align: center;
+	margin-left: 5.7em;
+	text-align: center;
   	text-decoration: none;
-	font-size: 16px;
 	padding: 0.5em;
+  	width: 40%; 	
 }
 
 #add_to_cart_btn_text {
@@ -56,8 +53,8 @@
 }
 
 #back {
-	display: flex;
 	align-items: center;
+	display: flex;	
 }
 
 #back-icon {
@@ -74,8 +71,8 @@
 }
 
 #back-text a:visited {
-	text-decoration: none;
 	color: black;
+	text-decoration: none;	
 }
 
 #browse-categories {
@@ -83,8 +80,8 @@
 }
 
 #cart_btn_contents {
-	display: flex;
 	align-items: center;
+	display: flex;	
 }
 
 #cart-image{
@@ -92,48 +89,40 @@
 }
 
 #home-pic {
-	display: block;
 	align-items: center;
+	display: block;
+	height: 100%;
   	margin-left: auto;
   	margin-right: auto;
-  	width: 95%;
-  	height: 100%;
   	padding-bottom: 2em;
- 
+  	width: 95%;
 }
 
-
-
 #glazing_dropdown {
-	padding-right: 6em;
 	font-family: 'Poppins', sans-serif;
+	padding-right: 6em;	
 }
 
 #glazing_options {
-	font-family: 'Poppins', sans-serif;
 	border: 1.25px solid black;
 	border-radius: 5px;
+	font-family: 'Poppins', sans-serif;
 }
 
 #items {
-	display: block;
 	align-items: center;
+	display: block;	
   	margin-left: auto;
   	margin-right: auto;
-  	width: 95%;
   	padding-bottom: 2em;
 	vertical-align: top /* so all figures are vertically aligned at the top*/
+  	width: 95%;
 }
 
 #items figure {
-	max-width: 100%;
 	margin-left: 5em;
 	margin-right: 5em;
-}
-
-
-#items img {
-	left-margin: 5em;
+	max-width: 100%;
 }
 
 #first_glaze {
@@ -151,14 +140,14 @@
 
 #locations_dropdown {
 	float: right;
-	padding-right: 6em;
 	font-family: 'Poppins', sans-serif;
+	padding-right: 6em;
 }
 
 #locations_options {
-	font-family: 'Poppins', sans-serif;
 	border: 1.25px solid black;
 	border-radius: 5px;
+	font-family: 'Poppins', sans-serif;
 }
 
 
@@ -176,11 +165,9 @@
 
 #product_detail_image {
 	display: block;
-	align-items: left;
 	margin-left: 4.5em;
+	padding-bottom: 2em;
   	width: 40%;
-  	padding-bottom: 2em;
- 
 }
 
 #product_details img {
@@ -188,34 +175,29 @@
 }
 
 #product_details p {
-	margin-left: 4em;
 	font-size: 22px;
+	margin-left: 4em;
 }
 
 #quantity_dropdown {
-	padding-right: 6em;
 	font-family: 'Poppins', sans-serif;
+	padding-right: 6em;	
 }
 
 #quantity_options {
-	font-family: 'Poppins', sans-serif;
 	border: 1.25px solid black;
 	border-radius: 5px;
+	font-family: 'Poppins', sans-serif;
 }
 
 #topbar {
-	display: flex;
 	align-items: center;
+	display: flex;
 	padding: 3em 1em;
-
 }
 
 #title-image {
 	padding-right: 1em;
-
-}
-
-#title-text {
 
 }
 
@@ -225,31 +207,28 @@
 }
 
 button {
-	display: block;
 	align-items: center;
-  	margin-left: auto;
-  	margin-right: auto;
-  	width: 10%;
-
-  	background-color: #7C3F2C; 
+	background-color: #7C3F2C; 
   	border: none;
   	border-radius: 5px;
   	color: white;
-  	font-family: 'Poppins', sans-serif;
+	display: block;
+	font-family: 'Poppins', sans-serif;
 	font-weight: 800;
-  	font-size: 40px;
+  	font-size: 16px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	padding: 0.5em;
   	text-align: center;
   	text-decoration: none;
-	font-size: 16px;
-	padding: 0.5em;
+  	width: 10%;
 }
 
 figcaption {
-	font-family: 'Poppins', sans-serif;
-	display: inline-block;
-	max-width: 100%;
 	caption-side:bottom;
-
+	display: inline-block;
+	font-family: 'Poppins', sans-serif;
+	max-width: 100%;
 }
 
 figure {
@@ -268,8 +247,8 @@ h2 {
 	padding: 1.2em;
 	color: #7C3F2C;
 	font-family: 'Poppins', sans-serif;
-	font-weight: 800;
   	font-size: 25px;
+  	font-weight: 800;
 }
 
 nav {
@@ -292,9 +271,9 @@ nav ul {
 
 nav li {
 	display: inline;
-	padding: 1em 1.5em;
 	font-family: 'Poppins', sans-serif;
 	font-size: 1.15em;
+	padding: 1em 1.5em;	
 }
 
 p {
