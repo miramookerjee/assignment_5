@@ -23,6 +23,10 @@
 	display: flex;
 }
 
+.product_detail_info {
+	display: flex;
+}
+
 #back {
 	display: flex;
 	align-items: center;
@@ -118,6 +122,10 @@
 
 .page_header {
 	margin-left: 2em;
+}
+
+#price {
+	font-weight: 600;
 }
 
 #product_detail_image {
