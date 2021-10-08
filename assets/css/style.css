@@ -3,6 +3,10 @@
     height: auto;
 }
 
+.indented_one_tab {
+	margin-left: 1em;
+}
+
 
 .title {
 	color: #7C3F2C;
@@ -27,6 +31,28 @@
 .product_detail_info {
 	display: flex;
 	align-items: center;
+}
+
+#add_to_cart_btn {
+
+  	width: 40%; 
+  	color: black;
+  	margin-left: 5.7em;
+
+  	background-color: #FFFFFF; 
+  	border: 2px solid black;
+  	border-radius: 5px;
+  	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+  	font-size: 40px;
+  	text-align: center;
+  	text-decoration: none;
+	font-size: 16px;
+	padding: 0.5em;
+}
+
+#add_to_cart_btn_text {
+	font-size: 20px;
 }
 
 #back {
@@ -54,6 +80,11 @@
 
 #browse-categories {
 	vertical-align: top /* so all figures are vertically aligned at the top*/
+}
+
+#cart_btn_contents {
+	display: flex;
+	align-items: center;
 }
 
 #cart-image{
