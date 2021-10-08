@@ -3,9 +3,6 @@
     height: auto;
 }
 
-.first_item {
-	margin-left: 2em;
-}
 
 .title {
 	color: #7C3F2C;
@@ -105,6 +102,18 @@
 
 #items img {
 	left-margin: 5em;
+}
+
+#first_glaze {
+	margin-left: 3.7em;
+}
+
+#first_quantity {
+	margin-left: 2em;
+}
+
+#glaze_second_row {
+	margin-left: 13.2em;
 }
 
 
