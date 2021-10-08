@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en"> 
 
 <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Bun Bun Bake Shop</title>
 
 	<!-- Poppins font  -->
@@ -35,29 +37,34 @@
 					</ul>
 				</nav>
 			</div>
-
 		</div>
 	</header>
 
+
+	<!-- Back -->
 	<div id="back">
 		<div><a href="product-browsing.html"><img class="icon" id="back-icon" src="images/back.png" alt="Back"/></a></div>
 		<div id="back-text"><p><a href="index.html">Back</a></p></div>
 	</div>
 
+	<!-- Header -->
 	<h2 class="page_header">Original Cinnamon Roll</h2>
 
 
 	<div class="product_details_and_image">
 		
+		<!-- Cinnamon Roll Picture -->
 		<img id="product_detail_image" src="images/original_large.png" alt="Original Roll" />
 
 		<div id="product_details">
 
+			<!-- Price -->
 			<div class="product_detail_info">
 				<p>Price:</p>
 				<div id="price"><p>$1.99</p></div>
 			</div>
 
+			<!-- Choose Quantity -->
 			<div class="product_detail_info">
 				<p>Quantity:</p>
 				<div id="first_quantity"><img src="images/1.png" alt="1"/></div>
@@ -66,37 +73,36 @@
 				<div><img src="images/12.png" alt="12"/></div>
 			</div>
 
+			<!-- Choose Glaze -->
 			<div class="product_detail_info">
 				<p>Glaze:</p>
+				<!-- First Row of  Glaze Options -->
 				<div id="first_glaze"><img src="images/no_glaze.png" alt="None"/></div>
 				<div><img src="images/sm_glaze.png" alt="Sugar-Milk"/></div>
-
 			</div>
 
+			<!-- Second Row of  Glaze Options -->
 			<div class="product_detail_info">
 				<div id="glaze_second_row"><img src="images/vm_glaze.png" alt="Vanilla-Milk"/></div>
 				<div><img src="images/dc_glaze.png" alt="Double-Chocolate"/></div>
 			</div>
 
 			<br><br>
+			<!-- Total -->
 			<div><p>Total: $1.99</p></div>
 
+			<!-- Add to Cart Button -->
 			<div>
-				<button type="button" id="add_to_cart_btn" href="product-browsing.html">
+				<button type="button" id="add_to_cart_btn">
+					<!-- Note: divs are not allowed in buttons, but this is necessary to style the button properly -->
 					<div id="cart_btn_contents">
 						<img class="icon" src="images/cart.png" alt="Cart"/>
 						<div class="indented_one_tab" id="add_to_cart_btn_text">Add to Cart</div>
 					</div>
 				</button>
 			</div>
-
 		</div> 
 	</div>
-
 	<br><br><br><br><br>
-
-
-
 </body>
-
 </html> 
