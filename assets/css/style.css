@@ -1,12 +1,15 @@
+/* Icons */
 .icon {
     height: auto;
     width: 40px;
 }
 
+/* Indented */
 .indented_one_tab {
 	margin-left: 1em;
 }
 
+/* Title */
 
 .title {
 	color: #7C3F2C;
@@ -24,6 +27,7 @@
 }
 
 
+/* Product Details */
 .product_details_and_image {
 	display: flex;
 }
@@ -33,6 +37,7 @@
 	display: flex;	
 }
 
+/* Cart */
 #add_to_cart_btn {
 	color: black;
 	background-color: #FFFFFF; 
@@ -51,6 +56,17 @@
 #add_to_cart_btn_text {
 	font-size: 20px;
 }
+
+#cart_btn_contents {
+	align-items: center;
+	display: flex;	
+}
+
+#cart-image{
+	padding-left: 1.5em;
+}
+
+/* Back */
 
 #back {
 	align-items: center;
@@ -75,18 +91,19 @@
 	text-decoration: none;	
 }
 
+/* Sections on Home */
+
 #browse-categories {
 	vertical-align: top /* so all figures are vertically aligned at the top*/
 }
 
-#cart_btn_contents {
-	align-items: center;
-	display: flex;	
+
+#previous-orders {
+	vertical-align: top /* so all figures are vertically aligned at the top*/
 }
 
-#cart-image{
-	padding-left: 1.5em;
-}
+
+/* Main Picture on Home */
 
 #home-pic {
 	align-items: center;
@@ -98,6 +115,9 @@
   	width: 95%;
 }
 
+/* Dropdowns */
+
+
 #glazing_dropdown {
 	font-family: 'Poppins', sans-serif;
 	padding-right: 6em;	
@@ -108,6 +128,33 @@
 	border-radius: 5px;
 	font-family: 'Poppins', sans-serif;
 }
+
+
+#locations_dropdown {
+	float: right;
+	font-family: 'Poppins', sans-serif;
+	padding-right: 6em;
+}
+
+#locations_options {
+	border: 1.25px solid black;
+	border-radius: 5px;
+	font-family: 'Poppins', sans-serif;
+}
+
+
+#quantity_dropdown {
+	font-family: 'Poppins', sans-serif;
+	padding-right: 6em;	
+}
+
+#quantity_options {
+	border: 1.25px solid black;
+	border-radius: 5px;
+	font-family: 'Poppins', sans-serif;
+}
+
+/* Items on Product Browsing Page */
 
 #items {
 	align-items: center;
@@ -125,6 +172,8 @@
 	max-width: 100%;
 }
 
+/* Product Details */
+
 #first_glaze {
 	margin-left: 3.7em;
 }
@@ -135,28 +184,6 @@
 
 #glaze_second_row {
 	margin-left: 13.2em;
-}
-
-
-#locations_dropdown {
-	float: right;
-	font-family: 'Poppins', sans-serif;
-	padding-right: 6em;
-}
-
-#locations_options {
-	border: 1.25px solid black;
-	border-radius: 5px;
-	font-family: 'Poppins', sans-serif;
-}
-
-
-#order-button {
-	padding-bottom: 2em
-}
-
-.page_header {
-	margin-left: 2em;
 }
 
 #price {
@@ -179,16 +206,20 @@
 	margin-left: 4em;
 }
 
-#quantity_dropdown {
-	font-family: 'Poppins', sans-serif;
-	padding-right: 6em;	
+/* Order Button */
+
+#order-button {
+	padding-bottom: 2em
 }
 
-#quantity_options {
-	border: 1.25px solid black;
-	border-radius: 5px;
-	font-family: 'Poppins', sans-serif;
+
+/* Indented Header of Product Pages */
+.page_header {
+	margin-left: 2em;
 }
+
+
+/* Top Row */
 
 #topbar {
 	align-items: center;
@@ -201,10 +232,7 @@
 
 }
 
-
-#previous-orders {
-	vertical-align: top /* so all figures are vertically aligned at the top*/
-}
+/* Built-In */
 
 button {
 	align-items: center;
