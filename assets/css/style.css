@@ -196,7 +196,7 @@
 	vertical-align: top /* so all figures are vertically aligned at the top*/
 }
 
-/* Title */
+/* Top Row */
 
 .title {
 	color: #7C3F2C;
@@ -213,8 +213,6 @@
 	text-decoration: none;
 }
 
-/* Top Row */
-
 #topbar {
 	align-items: center;
 	display: flex;
@@ -223,6 +221,8 @@
 
 #title-image {
 	padding-right: 1em;
+	height: 100%;
+	width: 100%;
 
 }
 
