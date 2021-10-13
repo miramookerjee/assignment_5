@@ -38,7 +38,7 @@
 						<li>Locations</li>
 						<li>About</li>
 						<li>Log Out</li>
-						<li id="cart-amount"><img class="icon" src="images/cart.png" alt="Cart"/>(1)</li>
+						<li id="nav-cart"><img class="icon" src="images/cart.png" alt="Cart"/><div id="cart-amount"></div></li>
 					</ul>
 				</nav>
 			</div>
@@ -72,12 +72,22 @@
 			<!-- Choose Quantity -->
 			<div class="product_detail_info">
 				<p>Quantity:</p>
-				<div id="first_quantity"><img src="images/1.png" alt="1"/></div>
-				<div><img src="images/3.png" alt="3"/></div>
-				<div><img src="images/6.png" alt="6"/></div>
-				<div><img src="images/12.png" alt="12"/></div>
-			</div>
+				<div id="first_quantity">
+					<!--<img id="one" onclick="selectQuantity()" src="images/1.png" alt="1"/> -->
+					<button class="quantity_button" id="one" onclick="selectQuantityOne()">1</button>
+				</div>
+				<div>
+					<button class="quantity_button" id="three" onclick="selectQuantityThree()">3</button>
+				</div>
+				<div>
+					<button class="quantity_button" id="six" onclick="selectQuantitySix()">6</button>
+				</div>
+				<div>
+					<button class="quantity_button" id="twelve" onclick="selectQuantityTwelve()">12</button>
+				</div>
 
+			</div>
+			
 			<!-- Choose Glaze -->
 			<div class="product_detail_info">
 				<p>Glaze:</p>
