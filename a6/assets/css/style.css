@@ -200,6 +200,23 @@
   	width: 40%;
 }
 
+.glaze_button {
+	align-items: center;
+	background-color: #EEEBE9; 
+  	border-color: black; 
+  	border-radius: 5px;
+  	color: black;
+	display: block;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+  	font-size: 16px;
+  	margin: 10px;
+  	text-align: center;
+  	text-decoration: none;
+  	height: 10%;
+
+}
+
 .product_detail_info {
 	align-items: center;
 	display: flex;	
