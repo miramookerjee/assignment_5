@@ -32,6 +32,7 @@ function selectButtonHelper(selected, unselected, id, others) {
 		// check if each of the other buttons are already selected
 		others.forEach ( other => deselectIfSelected(other, unselected) )
 	}
+
 }
 
 // Quantity
@@ -41,7 +42,8 @@ function selectQuantityOne() {
 	var unselected = "rgb(255, 255, 255)"
 	var others = ["three", "six", "twelve"]
 	selectButtonHelper(selected, unselected, "one", others)
-	
+	//update rest of page based on selection
+	updateProductName("quantity", "1-Pack")	
 }
 
 function selectQuantityThree() {
@@ -49,6 +51,8 @@ function selectQuantityThree() {
 	var unselected = "rgb(255, 255, 255)"
 	var others = ["one", "six", "twelve"]
 	selectButtonHelper(selected, unselected, "three", others)
+	//update rest of page based on selection
+	updateProductName("quantity", "3-Pack")
 }
 
 
@@ -57,6 +61,8 @@ function selectQuantitySix() {
 	var unselected = "rgb(255, 255, 255)"
 	var others = ["one", "three", "twelve"]
 	selectButtonHelper(selected, unselected, "six", others)
+	//update rest of page based on selection
+	updateProductName("quantity", "6-Pack")
 }
 
 
@@ -65,6 +71,8 @@ function selectQuantityTwelve() {
 	var unselected = "rgb(255, 255, 255)"
 	var others = ["one", "three", "six"]
 	selectButtonHelper(selected, unselected, "twelve", others)
+	//update rest of page based on selection
+	updateProductName("quantity", "12-Pack")
 }
 
 // Glaze
@@ -73,13 +81,17 @@ function selectNoGlaze() {
 	var unselected = "rgb(238, 235, 233)"
 	var others = ["sm", "vm", "dc"]
 	selectButtonHelper(selected, unselected, "none", others)
-}
+	//update rest of page based on selection
+	updateProductName("glazing", "No Glaze")
+} 
 
 function selectSMGlaze() {
 	var selected = "rgb(240, 215, 185)"
 	var unselected = "rgb(238, 235, 233)"
 	var others = ["none", "vm", "dc"]
 	selectButtonHelper(selected, unselected, "sm", others)
+	//update rest of page based on selection
+	updateProductName("glazing", "Sugar-Milk Glaze")
 }
 
 function selectVMGlaze() {
@@ -87,6 +99,8 @@ function selectVMGlaze() {
 	var unselected = "rgb(238, 235, 233)"
 	var others = ["sm", "none", "dc"]
 	selectButtonHelper(selected, unselected, "vm", others)
+	//update rest of page based on selection
+	updateProductName("glazing", "Vanilla-Milk Glaze")
 }
 
 function selectDCGlaze() {
@@ -94,4 +108,22 @@ function selectDCGlaze() {
 	var unselected = "rgb(238, 235, 233)"
 	var others = ["sm", "vm", "none"]
 	selectButtonHelper(selected, unselected, "dc", others)
+	//update rest of page based on selection
+	updateProductName("glazing", "Double-Chocolate Glaze")
 }
+
+function updateProductName(field, value) {
+	let productNameArray = document.getElementById("product_name_title").innerHTML.split(",");
+	if (field === "quantity") {
+		productNameArray[2] = value;
+	}
+	else {
+		// field === glazing
+		productNameArray[1] = value;
+	}
+	// now, update the product name
+	let productNameString = productNameArray.join(", ");
+	document.getElementById("product_name_title").innerHTML = productNameString
+
+}
+

@@ -72,9 +72,9 @@
 
 
 #locations_dropdown {
-	float: right;
+	margin-left: 2em;
 	font-family: 'Poppins', sans-serif;
-	padding-right: 6em;
+	padding-bottom: 3em;
 }
 
 #locations_options {
