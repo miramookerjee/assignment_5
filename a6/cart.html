@@ -39,7 +39,7 @@
 						<li>Locations</li>
 						<li>About</li>
 						<li>Log Out</li>
-						<li id="cart-amount"><img class="icon" src="images/cart.png" alt="Cart"/>(2)</li>
+						<li><a href="cart.html"><img class="icon" src="images/cart.png" alt="Cart"/>(2)</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -64,19 +64,20 @@
 		<br>
 	</div>
 
-	<!-- Cart -->
-
 	<div class="product_details_and_image">
 		<img id = "cart-image" src="images/original.png" alt="Orginal Cinnamon Roll" />
 
 		<div id="product_details">
 
-			<p>Original Cinnamon Roll</p>
+			<span id="product-in-cart-title">Original Cinnamon Roll</span>
+			&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+			&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
 
-			<br><br>
+			<span>$1.99</span>
 			
+			<!-- Glazing Dropdown -->
 			<div id="glazing_dropdown">
-
+				<br>
 				<label for="glazing">Glazing:</label>
 
 				<select name="glazing" id="glazing_options">
@@ -90,6 +91,8 @@
 
 			<br>
 
+			<!-- Quantity Dropdown -->
+
 			<div id="quantity_dropdown">
 
 				<label for="quantity">Qty:</label>
@@ -101,8 +104,80 @@
 				  <option value="12">12</option>
 				</select>
 			</div>
+
+			<!-- Remove Button -->
+			<br>
+			<button id="remove-from-cart-btn">Remove</button>
 		</div>
+
+		<!-- Summary Card -->
+		<button type="button" id="checkout-btn">
+			<!-- Note: divs are not allowed in buttons, but this is necessary to style the button properly -->
+			<div id="checkout_btn_contents">
+				<div class="indented_one_tab" id="checkout_btn_text">Proceed to Checkout</div>
+			</div>
+		</button>
+
 	</div>
+
+	<br><br>
+	<!-- Border Between Items in Cart -->
+	<hr id="cart-border">
+	<br><br>
+
+
+		<div class="product_details_and_image">
+		<img id = "cart-image" src="images/pumpkinspice.png" alt="Pumpkin Spice Cinnamon Roll" />
+
+		<div id="product_details">
+
+			<span id="product-in-cart-title">Pumpkin Spice Roll</span>
+			&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+			&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+
+			<span>$23.88</span>
+			
+			<!-- Glazing Dropdown -->
+			<div id="glazing_dropdown">
+				<br>
+				<label for="glazing">Glazing:</label>
+
+				<select name="glazing" id="glazing_options">
+				  <option value="vanilla-milk">Vanilla-Milk</option>
+				  <option value="none">None</option>
+				  <option value="sugar-milk">Sugar-Milk</option>
+				  <option value="double-chocolate">Double Chocolate</option>
+				</select>
+			</div>
+
+
+			<br>
+
+			<!-- Quantity Dropdown -->
+
+			<div id="quantity_dropdown">
+
+				<label for="quantity">Qty:</label>
+
+				<select name="quantity" id="quantity_options">
+				  <option value="6">6</option>
+				  <option value="1">1</option>
+				  <option value="3">3</option>
+				  <option value="12">12</option>
+				</select>
+			</div>
+
+			<!-- Remove Button -->
+			<br>
+			<button id="remove-from-cart-btn">Remove</button>
+		</div>
+
+	</div>
+
+	<br><br>
+	<!-- Border Between Items in Cart -->
+	<hr id="cart-border">
+	<br><br>
 	
 
 
