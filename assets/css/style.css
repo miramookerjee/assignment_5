@@ -16,7 +16,7 @@
 
 #back-text a {
 	text-decoration: none;
-} 
+}
 
 #back-text a:visited {
 	color: black;
@@ -37,6 +37,10 @@
   	text-decoration: none;
 	padding: 0.5em;
   	width: 40%; 	
+}
+
+#add_to_cart_btn_text {
+	font-size: 20px;
 }
 
 #cart_btn_contents {
