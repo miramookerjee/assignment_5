@@ -1,11 +1,9 @@
 function addToCart() {
 	let cartElement = document.getElementById("cart-amount")
 	var amount = 0
-	if (cartElement.textContent != "") {
-		amount = cartElement.textContent.replace(/\D/g,'') // removes all non-numeric digits from string
-	}
+	amount = cartElement.textContent.replace(/\D/g,'') // removes all non-numeric digits from string
 	let newAmount = parseInt(amount) + 1
-	cartElement.textContent = "(" + newAmount + ")"
+	cartElement.textContent = "(" + newAmount + ")"	
 } 
 
 // Buttons
@@ -83,6 +81,7 @@ function selectNoGlaze() {
 	selectButtonHelper(selected, unselected, "none", others)
 	//update rest of page based on selection
 	updateProductName("glazing", "No Glaze")
+	updateImage("none")
 } 
 
 function selectSMGlaze() {
@@ -92,6 +91,7 @@ function selectSMGlaze() {
 	selectButtonHelper(selected, unselected, "sm", others)
 	//update rest of page based on selection
 	updateProductName("glazing", "Sugar-Milk Glaze")
+	updateImage("sm")
 }
 
 function selectVMGlaze() {
@@ -101,6 +101,7 @@ function selectVMGlaze() {
 	selectButtonHelper(selected, unselected, "vm", others)
 	//update rest of page based on selection
 	updateProductName("glazing", "Vanilla-Milk Glaze")
+	updateImage("vm")
 }
 
 function selectDCGlaze() {
@@ -110,6 +111,7 @@ function selectDCGlaze() {
 	selectButtonHelper(selected, unselected, "dc", others)
 	//update rest of page based on selection
 	updateProductName("glazing", "Double-Chocolate Glaze")
+	updateImage("dc")
 }
 
 function updateProductName(field, value) {
@@ -125,5 +127,21 @@ function updateProductName(field, value) {
 	let productNameString = productNameArray.join(", ");
 	document.getElementById("product_name_title").innerHTML = productNameString
 
+}
+
+function updateImage(value) {
+	var img = document.getElementById("product_detail_image")
+	if (value === "none") {
+		img.src = "images/original_large.png"
+	}
+	else if (value === "sm") {
+		img.src = "images/sm_large.png"
+	}
+	else if (value === "vm") {
+		img.src = "images/vm_large.png"
+	}
+		else if (value === "dc") {
+		img.src = "images/dc_large.png"
+	}
 }
 
