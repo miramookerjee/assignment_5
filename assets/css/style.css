@@ -39,10 +39,6 @@
   	width: 40%; 	
 }
 
-#add_to_cart_btn_text {
-	font-size: 20px;
-}
-
 #cart_btn_contents {
 	align-items: center;
 	display: flex;	
