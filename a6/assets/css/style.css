@@ -1,5 +1,5 @@
 /* Back */
-
+ 
 #back {
 	align-items: center;
 	display: flex;	
@@ -96,6 +96,8 @@
 	color: black;
 	font-family: 'Poppins', sans-serif;
 	font-size: 15px;
+	font-weight: 400;
+	margin: 0;
 	text-decoration: underline;
 	padding-left: 6.4em;
 }
@@ -205,6 +207,7 @@
 /* Order Button */
 
 #order-button {
+	/*
 	align-items: center;
 	background-color: #7C3F2C; 
   	border: none;
@@ -217,10 +220,13 @@
   	margin-left: auto;
   	margin-right: auto;
   	padding: 0.5em;
+  	*/
   	padding-bottom: 2em;
+  	/*
   	text-align: center;
   	text-decoration: none;
-  	width: 10%;
+  	
+  	*/
 }
 
 /* Product Details */
@@ -285,8 +291,11 @@
 }
 
 .quantity_button {
-	font-size: 30px;
+	color: black;
+	font-size: 20px;
+	font-weight: 400;
 	background-color: white; 
+	border: black solid 2px;
 	display:block;
   	height: 50px;
   	width: 50px;
@@ -336,7 +345,22 @@
 }
 
 /* Built-In */
-
+button {
+	align-items: center;
+	background-color: #7C3F2C; 
+  	border: none;
+  	border-radius: 5px;
+  	color: white;
+	display: block;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 800;
+  	font-size: 16px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	padding: 0.5em;
+  	text-align: center;
+  	text-decoration: none;
+}
 figcaption {
 	caption-side:bottom;
 	display: inline-block;
